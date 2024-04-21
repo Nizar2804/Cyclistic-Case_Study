@@ -142,4 +142,4 @@ Annual members slightly prefer Classic bikes 51% to
 While casual riders prefer Electric bikes: 
           Electric bike 53% , Classic bike 44% , Docked bike 3%. 
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/a%20whole%20new%20world.tif)
+![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/Trips%20by%20Customer%20and%20Bike%20type.png)
