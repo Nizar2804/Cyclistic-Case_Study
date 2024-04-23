@@ -113,7 +113,9 @@ The calculation of trip length had returned some negative values ( the ended_at 
 
 
 
-ANALYZE
+ANALYZE.
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
 To answer the question: How do annual members and casual riders use Cyclistic bikes differently? We started by analysing the proportion of member and casual riders: 
 
 
