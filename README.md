@@ -13,15 +13,13 @@ I’m a junior data analyst working in the marketing analyst team at Cyclistic. 
 These insights will then be used to develop marketing strategies to convert casual riders into member riders. 
 Three questions will guide the future marketing program:
 
-       1. How do annual members and casual riders use Cyclistic bikes differently?
+1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why would casual riders buy Cyclistic annual memberships? 
 3. How can Cyclists use digital media to influence casual riders to become members? 
 
 The director of marketing has assigned our team the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
-
-
-Data
+ # Data
 
 The data has been provided and used under the (Divvy Data License Agreement) Divvy generously open sources their internal historical trip data to the public.(Note: The datasets have a different name because Cyclistic is a fictional company)
 The data has been made available by Motivate International Inc. under this licence.) It is released on a monthly schedule and can be downloaded from the Divvy bikes webpage in csv format.
