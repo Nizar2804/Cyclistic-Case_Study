@@ -96,7 +96,7 @@ The calculation of trip length had returned some negative values ( the ended_at 
          The rows have been removed. 
 
 
-ANALYZE
+ ## ANALYZE
 
 To answer the question: How do annual members and casual riders use Cyclistic bikes differently? We started by analysing the proportion of member and casual riders: 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
@@ -104,24 +104,35 @@ To answer the question: How do annual members and casual riders use Cyclistic bi
 Over 64% of the trips are made by members and nearly 36% by casual riders During the period 3-2023 to 2-2024.
 
 
-Bike type preferences 
+# Bike type preferences 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/Trips%20by%20Customer%20and%20Bike%20type.png)
 
-Annual members slightly prefer Classic bikes 51% to
-          49% Electric bikes usage. 
+Annual members slightly prefer Classic bikes 51% to 49% Electric bikes usage. 
 While casual riders prefer Electric bikes: 
-          Electric bike 53% , Classic bike 44% , Docked bike 3%. 
-
-Trip count by (Month, Day of week, Hour) and Bike type
+Electric bike 53% , Classic bike 44% , Docked bike 3%. 
 
 
+# Trip count by (Month, Day of week, Hour) and Bike type
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20bu%20months%20and%20bike%20type.png)									
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20by%20dow%20and%20bike%20type.png)		
 
 
-Average trip duration by Month and Day of week 
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20by%20hour%20and%20biketype.png)									
 
 
 
-Top 10 start stations
+# Average trip duration
 
-Top 10 end stations
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/avg%20by%20months.png)	
 
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/avg%20by%20day%20of%20week.png)						
+
+
+# Most popular start and end stations
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/top%2010%20start%20stations.png)																									
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/top%2010%20end%20stations.png)																									
