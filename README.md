@@ -39,11 +39,6 @@ Prepare and clean the data
 
 In order to upload and use the data in BigQuery, we downloaded the 12 CSV files from the period 3-2023 to 2-2024 and merged them into one CSV file. We saved the file in Google Drive and uploaded it to BigQuery. (the file contain 13 columns and 5,707,168 rows)
 
-
-
-
-
-
 Check for duplicates
 
 The query return “ There is no data to display ” mean there is no duplicate cells in the ride_id column
@@ -101,45 +96,32 @@ The calculation of trip length had returned some negative values ( the ended_at 
          The rows have been removed. 
 
 
+ANALYZE
 
-
-
-
-
-
-
-
-
-
-
-
-ANALYZE.
-
-![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
 To answer the question: How do annual members and casual riders use Cyclistic bikes differently? We started by analysing the proportion of member and casual riders: 
-
+![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
 
 Over 64% of the trips are made by members and nearly 36% by casual riders During the period 3-2023 to 2-2024.
 
 
-
-
-
-
-
-
-
-
-
-
 Bike type preferences 
-
-
-
+![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/Trips%20by%20Customer%20and%20Bike%20type.png)
 
 Annual members slightly prefer Classic bikes 51% to
           49% Electric bikes usage. 
 While casual riders prefer Electric bikes: 
           Electric bike 53% , Classic bike 44% , Docked bike 3%. 
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/Trips%20by%20Customer%20and%20Bike%20type.png)
+Trip count by (Month, Day of week, Hour) and Bike type
+
+
+
+
+Average trip duration by Month and Day of week 
+
+
+
+Top 10 start stations
+
+Top 10 end stations
+
