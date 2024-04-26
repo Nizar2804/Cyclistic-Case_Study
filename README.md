@@ -51,43 +51,7 @@ The query return “ There is no data to display ” mean there is no duplicate 
  4- day_of_week ( Extract the day of week from started_at)
  5- trip _duration_minutes ( calculate the trip length by subtracting ended_at and started_at)
 
-CREATE TABLE
-`airy-charmer-416112.Cyclistic.new_table` AS
-SELECT
-ride_id,
-rideable_type,
-member_casual,
-started_at,
-ended_at,
-EXTRACT(HOUR FROM started_at) AS start_hour,
-EXTRACT(HOUR FROM ended_at) AS end_hour,
-CASE EXTRACT(MONTH FROM started_at)
-   WHEN 1 THEN 'JAN'
-   WHEN 2 THEN 'FEB'
-   WHEN 3 THEN 'MAR'
-   WHEN 4 THEN 'APR'
-   WHEN 5 THEN 'MAY'
-   WHEN 6 THEN 'JUN'
-   WHEN 7 THEN 'JUL'
-   WHEN 8 THEN 'AUG'
-   WHEN 9 THEN 'SEP'
-   WHEN 10 THEN 'OCT'
-   WHEN 11 THEN 'NOV'
-   WHEN 12 THEN 'DEC'
-   END AS month,
-CASE EXTRACT(DAYOFWEEK FROM started_at)
-   WHEN 1 THEN 'SUNDAY'
-   WHEN 2 THEN 'MONDAY'
-   WHEN 3 THEN 'TUESDAY'
-   WHEN 4 THEN 'WEDNESDAY'
-   WHEN 5 THEN 'THURSDAY'
-   WHEN 6 THEN 'FRIDAY'
-   WHEN 7 THEN 'SATURDAY'   
-   END AS day_of_week,
-DATETIME_DIFF(ended_at,started_at, MINUTE)
-       AS trip_duration_minutes
-FROM `airy-charmer-416112.Cyclistic.3-2023_to_2-2024`
-WHERE DATETIME_DIFF(ended_at,started_at, MINUTE) > 0
+![image](https://github.com/Nizar2804/Cyclistic-/blob/d7b13f15193ca4f03119da47e595984588921f9f/images/clean%20data.png)
 
 
 We created a new table that includes 5 new columns as mentioned above. 
