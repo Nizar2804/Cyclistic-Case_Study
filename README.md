@@ -41,15 +41,17 @@ In order to upload and use the data in BigQuery, we downloaded the 12 CSV files 
 
 ### Check for duplicates
 
+![image](https://github.com/Nizar2804/Cyclistic-/blob/20061e7788d529a927799f31181f77d8e12890d7/images/duplicate%20check.png)
+
 The query return “ There is no data to display ” mean there is no duplicate cells in the ride_id column
 
 ### Create new columns
 
- 1- start_hour ( Extract the start hour of a trip from started_at)
- 2- end_hour ( Extract the end hour of a trip from ended_at)
- 3- month ( Extract the month from started_at)
- 4- day_of_week ( Extract the day of week from started_at)
- 5- trip _duration_minutes ( calculate the trip length by subtracting ended_at and started_at)
+- 1- start_hour ( Extract the start hour of a trip from started_at)
+- 2- end_hour ( Extract the end hour of a trip from ended_at)
+- 3- month ( Extract the month from started_at)
+- 4- day_of_week ( Extract the day of week from started_at)
+- 5- trip _duration_minutes ( calculate the trip length by subtracting ended_at and started_at)
 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/d7b13f15193ca4f03119da47e595984588921f9f/images/clean%20data.png)
 
@@ -62,7 +64,8 @@ The calculation of trip length had returned some negative values ( the ended_at 
 
  ## ANALYZE
 
-To answer the question: How do annual members and casual riders use Cyclistic bikes differently? We started by analysing the proportion of member and casual riders: 
+To answer the question: How do annual members and casual riders use Cyclistic bikes differently? 
+- We started by analysing the proportion of member and casual riders: 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
 
 Over 64% of the trips are made by members and nearly 36% by casual riders During the period 3-2023 to 2-2024.
@@ -71,21 +74,27 @@ Over 64% of the trips are made by members and nearly 36% by casual riders During
 # Bike type preferences 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/main/images/Trips%20by%20Customer%20and%20Bike%20type.png)
 
-Annual members slightly prefer Classic bikes 51% to 49% Electric bikes usage. 
-While casual riders prefer Electric bikes: 
+- Annual members slightly prefer Classic bikes 51% to 49% Electric bikes usage. 
+- Casual riders prefer Electric bikes: 
 Electric bike 53% , Classic bike 44% , Docked bike 3%. 
 
 
-# Trip count by (Month, Day of week, Hour) and Bike type
+# Trip count by time periods and Bike type
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20bu%20months%20and%20bike%20type.png)									
+![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20bu%20months%20and%20bike%20type.png)			
+- Both causal riders and annual members had more trips during the warmer months compared to	autumn and winter.
+- Annual members had slightly increase during february using the classic bike.
 
+
+   
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20by%20dow%20and%20bike%20type.png)		
 
-
+- Casual riders made more trips during the weekends, possibly part of them as a visitors.
+- Annual members made more trips during the weekdays, possibly due to commuting.
+  
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20by%20hour%20and%20biketype.png)									
-
-
+- Casual rides start a steady increase in the morning hours until they reach the peak at 5 PM.
+- Annual members increase their bike usage significantly during 7-9 AM and 3-6 PM (commuting).
 
 # Average trip duration
 
