@@ -37,35 +37,35 @@ The data provides details on each trip that took place in the given time period.
 
 ## Prepare and clean the data 
 
-In order to upload and use the data in BigQuery, we downloaded the 12 CSV files from the period 3-2023 to 2-2024 and merged them into one CSV file. We saved the file in Google Drive and uploaded it to BigQuery. (the file contain 13 columns and 5,707,168 rows)
+To upload and use the data in BigQuery, we downloaded the 12 CSV files from the period 3-2023 to 2-2024 and merged them into one CSV file. We saved the file in Google Drive and uploaded it to BigQuery. (the file contains 13 columns and 5,707,168 rows)
 
 ### Check for duplicates
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/20061e7788d529a927799f31181f77d8e12890d7/images/duplicate%20check.png)
 
-The query return “ There is no data to display ” mean there is no duplicate cells in the ride_id column
+
+The query return “ There is no data to display ” means there are no duplicate cells in the ride_id column
 
 ### Create new columns
 
 - 1- start_hour ( Extract the start hour of a trip from started_at)
 - 2- end_hour ( Extract the end hour of a trip from ended_at)
 - 3- month ( Extract the month from started_at)
-- 4- day_of_week ( Extract the day of week from started_at)
+- 4- day_of_week ( Extract the day of the week from started_at)
 - 5- trip _duration_minutes ( calculate the trip length by subtracting ended_at and started_at)
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/d7b13f15193ca4f03119da47e595984588921f9f/images/clean%20data.png)
+
 
 
 We created a new table that includes 5 new columns as mentioned above. 
 We used the started_at data to extract the ( Month, Day of week and hour)  of every trip. 
-The calculation of trip length had returned some negative values ( the ended_at date is prior to the started_at date ).
+The calculation of trip length returned some negative values ( the ended_at date is before the started_at date ).
          The rows have been removed. 
 
 
  ## ANALYZE
 
 To answer the question: How do annual members and casual riders use Cyclistic bikes differently? 
-- We started by analysing the proportion of member and casual riders: 
+- We started by analyzing the proportion of member and casual riders: 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/946e16e59190c56b981ff1a57d25cee9d85c06ba/images/Total%20trips%20by%20customer%20type.png)
 
 Over 64% of the trips are made by members and nearly 36% by casual riders During the period 3-2023 to 2-2024.
