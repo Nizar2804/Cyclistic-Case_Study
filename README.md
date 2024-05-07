@@ -53,7 +53,7 @@ The query return “ There is no data to display ” means there are no duplicat
 - 4- day_of_week ( Extract the day of the week from started_at)
 - 5- trip _duration_minutes ( calculate the trip length by subtracting ended_at and started_at)
 
-1[image](https://github.com/Nizar2804/Cyclistic-/blob/c758b3ab33fbfba038fb19666b36a4100ef33e63/images/clean%20data.png)
+![image](https://github.com/Nizar2804/Cyclistic-/blob/c758b3ab33fbfba038fb19666b36a4100ef33e63/images/clean%20data.png)
 
 
 We created a new table that includes 5 new columns as mentioned above. 
