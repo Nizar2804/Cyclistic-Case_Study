@@ -102,10 +102,13 @@ Electric bike 53% , Classic bike 44% , Docked bike 3%.
 
 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/b0faf7267da8330ba4d06955b434b2147aff8aed/images/avg%20by%20dow.png)		
-
-
 # Most popular start and end stations
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/top%2010%20start%20stations.png)																									
+![image](https://github.com/Nizar2804/Cyclistic-/blob/22c7e7b35a9464bbe26db76a8b984bc990188435/images/top%2010%20start%20stations%20-%20casual.png)
 
-![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/top%2010%20end%20stations.png)																									
+![image](https://github.com/Nizar2804/Cyclistic-/blob/22c7e7b35a9464bbe26db76a8b984bc990188435/images/top%2010%20end%20station%20-casual.png)
+
+![image](https://github.com/Nizar2804/Cyclistic-/blob/22c7e7b35a9464bbe26db76a8b984bc990188435/images/top%2010%20start%20station%20-%20member.png)																
+![image](https://github.com/Nizar2804/Cyclistic-/blob/22c7e7b35a9464bbe26db76a8b984bc990188435/images/top%2010%20end%20station%20-%20members.png)
+
+                      
