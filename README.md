@@ -35,7 +35,8 @@ The data provides details on each trip that took place in the given period. This
 
 ## Prepare and clean the data 
 
-To upload and use the data in BigQuery, we downloaded the 12 CSV files from the period 3-2023 to 2-2024 and merged them into one CSV file. We saved the file in Google Drive and uploaded it to BigQuery. (the file contains 13 columns and 5,707,168 rows).
+To upload and use the data in BigQuery, we downloaded 12 CSV files from the period 3-2023 to 2-2024 and merged them into one CSV file. 
+We saved the file in Google Drive and uploaded it to BigQuery. (the file contains 13 columns and 5,707,168 rows).
 
 ### Check for duplicates
 
@@ -73,7 +74,7 @@ Over 64% of the trips are made by members and nearly 36% by casual riders During
 
 - Casual Riders Prefer Electric bikes (53%), followed by Classic bikes (44%), and 
   Docked bikes (3%). 
-- Annual members, slightly preference for Classic bikes (51%) over Electric bikes 
+- Annual members, slight preference for Classic bikes (51%) over Electric bikes 
   (49%).
 
 
@@ -93,13 +94,14 @@ Over 64% of the trips are made by members and nearly 36% by casual riders During
   
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/6323088c422bdf98c7f68b48ed9ea77bc9a57171/images/trips%20by%20hour%20and%20biketype.png)									
 - Casual rides steadily increase in the morning hours, peaking at 5 PM.
-- Annual members increase their bike usage significantly during 7-9 AM and 3-6 PM , aligning with typical commuting hours.
+- Annual members increase their bike usage significantly during 7-9 AM and 3-6 PM, aligning with typical commuting hours.
 
 # Average trip duration
 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/cdf649bdad4e733f7800e5d72b8a2e4d88b53819/images/avg%20by%20months.png)
 
-- The average trip duration of casual riders ranges between 21-25 minutes throughout the year (Peaking at 25 minutes in September), abnormally 18 minutes in March. 
+- The average trip duration of casual riders ranges between 21-25 minutes throughout the year (Peaking at 25 minutes in September), 
+  abnormally 18 minutes in March. 
 - The average trip duration of annual members ranges between 10.5 minutes (March) and 13.5 minutes (July). 
 
 ![image](https://github.com/Nizar2804/Cyclistic-/blob/0c54dcde991772a7c3fb9b014a8d0e61200d4b4e/images/avg%20trip%20duration%20by%20dow.png)
@@ -126,8 +128,8 @@ Over 64% of the trips are made by members and nearly 36% by casual riders During
   the annual membership package.
 - Because of high usage by Casual riders on weekends, promote annual memberships to casual riders during their weekend rides, emphasizing 
   the benefits of frequent usage.
-- Because of high usage by Casual riders in warmer months, target casual local riders through the summer highlight the cost-saving Annual 
-  membership.
+- Because of high usage by Casual riders in warmer months, target casual local riders through the summer by highlighting the cost-saving 
+  Annual membership.
 - Focusing marketing efforts on the most popular stations for both casual riders and annual members.
 
 
